@@ -17,9 +17,13 @@ The client sends the createStory event to the server.
 The server uses a pool of 'workers' to process the 'Tasks' of the incoming stories.
 The server saves the information about the status of stories on MongoDB.
 The client subscribes to the stats event to receive real-time statistics on:
+
 Stories produced per second.
+
 Stories completed per second.
+
 Number of open stories.
+
 Number of completed stories.
 
 ## Installation
