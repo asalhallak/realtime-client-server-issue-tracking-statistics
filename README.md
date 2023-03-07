@@ -26,7 +26,7 @@ Number of open stories.
 
 Number of completed stories.
 
-###Note
+### Note
 For this implementation, we opted for an interval rather than a collection.watch(). This is because collection.watch() requires running over the MongoDB replica set, which is not necessary for the context of this example. Thus, it suffices to use the interval to simulate collection.watch()
 
 ## Installation
